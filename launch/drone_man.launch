@@ -1,0 +1,10 @@
+<launch>
+
+  <!-- Here will go our python script that calls the execute_trajectory service -->
+    <node pkg ="actions_quiz"
+        type="code.py"
+        name="code"
+        output="screen">
+    </node>
+
+</launch>
